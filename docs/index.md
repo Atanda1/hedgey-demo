@@ -7,18 +7,20 @@ slug: /
 
 Integrating Bonadocs Widget Into Mopho's docs.
 
-
-Bonadocs widget provides a way to make Morpho’s documentation self-sufficient by enabling interactivity within the developer documentation. 
+Bonadocs widget provides a way to make Morpho’s documentation self-sufficient by enabling interactivity within the developer documentation.
 
 ## Installation
+
 ```bash
 yarn add @bonadocs/widget
 ```
+
 Run the development server:
 
 ## Usage
+
 ```bash
-import { BonadocsWidget } from '@bonadocs/widget';
+import  BonadocsWidget  from '@bonadocs/widget';
 
 // This is a demo widget for the owner() function on the Mopho Blue contract
 <BonadocsWidget widgetConfigUri="ipfs://bafkreia4ww7vqu7musrojcort35mpyiob6e5xbjeicw3sdrm4f6ud6hrai" contract="MorphBlue" functionKey="function owner() view returns (address)" />
