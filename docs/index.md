@@ -22,7 +22,7 @@ Run the development server:
 ```bash
 import  BonadocsWidget  from '@bonadocs/widget';
 
-// This is a demo widget for the owner() function on the Mopho Blue contract
+// This is a demo widget for the lockedBalances() function on the TokenVestingPlans contract
 <BonadocsWidget widgetConfigUri="ipfs://bafkreiblvuhdydjmcjebjvys6mwvmr63p2uki7fdqbywvgwxylaxdqwev4" contract="TokenVestingPlans" functionKey="lockedBalances" />
 ```
 
