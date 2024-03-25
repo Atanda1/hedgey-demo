@@ -1,0 +1,50 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "contractSidebar": [
+      {
+        "type": "link",
+        "label": "Hedgey Finance X Bonadocs",
+        "href": "/",
+        "docId": "index",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "contracts",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "TokenVestingPlans",
+            "href": "/contracts/TokenVestingPlans",
+            "docId": "contracts/TokenVestingPlans",
+            "unlisted": false
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "contracts/TokenVestingPlans": {
+      "id": "contracts/TokenVestingPlans",
+      "title": "TokenVestingPlans",
+      "description": "In this demo, you can test out these two methods from the TokenVestingPlans contract.",
+      "sidebar": "contractSidebar"
+    },
+    "index": {
+      "id": "index",
+      "title": "Hedgey Finance X Bonadocs",
+      "description": "Integrating Bonadocs Widget Into Hedgey Finance's docs.",
+      "sidebar": "contractSidebar"
+    }
+  }
+}

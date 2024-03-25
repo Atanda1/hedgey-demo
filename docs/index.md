@@ -3,9 +3,9 @@ sidebar_position: 1
 slug: /
 ---
 
-# Morpho X Bonadocs
+# Hedgey Finance X Bonadocs
 
-Integrating Bonadocs Widget Into Mopho's docs.
+Integrating Bonadocs Widget Into Hedgey Finance's docs.
 
 Bonadocs widget provides a way to make Morpho’s documentation self-sufficient by enabling interactivity within the developer documentation.
 
@@ -23,7 +23,7 @@ Run the development server:
 import  BonadocsWidget  from '@bonadocs/widget';
 
 // This is a demo widget for the owner() function on the Mopho Blue contract
-<BonadocsWidget widgetConfigUri="ipfs://bafkreia4ww7vqu7musrojcort35mpyiob6e5xbjeicw3sdrm4f6ud6hrai" contract="MorphBlue" functionKey="function owner() view returns (address)" />
+<BonadocsWidget widgetConfigUri="ipfs://bafkreiblvuhdydjmcjebjvys6mwvmr63p2uki7fdqbywvgwxylaxdqwev4" contract="TokenVestingPlans" functionKey="lockedBalances" />
 ```
 
 The `yarn start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.

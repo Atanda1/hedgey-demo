@@ -4,7 +4,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 export default {
-  title: "Morpho",
+  title: "Hedgey finance",
   tagline: "Generated with Bonadocs",
   favicon: "img/favicon.ico",
   url: "https://your-documentation-site.com",
@@ -33,9 +33,9 @@ export default {
   themeConfig: {
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "Morpho",
+      title: "Hedgey finance",
       logo: {
-        alt: "Morpho Logo",
+        alt: "Hedgey finance Logo",
         src: "img/logo.svg",
       },
       items: [
