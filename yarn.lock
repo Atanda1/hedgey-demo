@@ -1185,10 +1185,10 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
-"@bonadocs/widget@^1.0.1":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@bonadocs/widget/-/widget-1.0.2.tgz#6b5e9d506466300684ef72ac0c4d685514c05092"
-  integrity sha512-sGVbXhYGZUkkIMEeRRX3BjDFXLGXAIV7pcE6xuPiD/NGUCeUTaqid+WS1vTfhphQ+J+uE1KR4noO/wxN3FVrQQ==
+"@bonadocs/widget@^1.0.5-alpha.2":
+  version "1.0.5-alpha.2"
+  resolved "https://registry.yarnpkg.com/@bonadocs/widget/-/widget-1.0.5-alpha.2.tgz#a1f67f6e200eef97ae3361c55e18200b241af3a2"
+  integrity sha512-QWqDL/5Q4feamjuXh+al657Z5gvsJlOJXDpMrQP6m6lW36jVEOO2Qxun6EVayJOfHUFVjmxOrL5nrspKL2+9SQ==
 
 "@colors/colors@1.5.0":
   version "1.5.0"
